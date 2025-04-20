@@ -6,49 +6,31 @@ on:
       - 'talks/**'
       - 'talkmap.ipynb'
 
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
 
-      - name: Clean working directory
-        run: |
-          git clean -fdx
-          git reset --hard HEAD
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'  # Specify the Python version you need
 
-      - name: Checkout repository at master
-        uses: actions/checkout@v3
-        with:
-          ref: master               # 一定要签出 master 分支
-          fetch-depth: 0            # 完整历史
-          persist-credentials: true # 保留凭据用于 git push
-      - name: Clean working directory
-        run: |
-          git clean -fdx
-          git reset --hard HEAD
+    - name: Install dependencies
+      run: |
+        pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
+        pip install getorg --upgrade
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
+    - name: Run Jupyter Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-      - name: Install dependencies
-        run: |
-          pip install jupyter pandas requests beautifulsoup4 geopy
-          pip install getorg --upgrade
-
-      - name: Run Jupyter Notebook
-        run: |
-          jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin master || true
-          git add .
-          git commit -m "Automated update of talk locations" || echo "No changes to commit"
-          git push origin master
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Automated update of talk locations" || echo "No changes to commit"
+        git push
