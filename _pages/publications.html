@@ -5,32 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="container mx-auto px-4 py-8">
+  {% if site.author.googlescholar %}
+    <p class="mb-6">Also on <a href="{{ site.author.googlescholar }}" class="text-blue-600 hover:underline">Google Scholar</a>.</p>
+  {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+  {% for category in site.publication_category %}
+    {% assign shown = false %}
+    {% for pub in site.publications reversed %}
+      {% if pub.category == category[0] %}
+        {% unless shown %}
+          <h2 class="text-2xl font-semibold mt-8 mb-4">{{ category[1].title }}</h2>
+          {% assign shown = true %}
+        {% endunless %}
+        <article class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-8">
+          {% if pub.thumbnail %}
+            <div class="md:col-span-3">
+              <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="w-full rounded-lg shadow-md" />
+            </div>
+            <div class="md:col-span-9 prose prose-sm">
+          {% else %}
+            <div class="md:col-span-12 prose prose-sm">
+          {% endif %}
+              <h3 class="text-xl font-medium">{{ pub.title }}</h3>
+              <p class="text-sm text-gray-600">{{ pub.authors }}</p>
+              <p class="text-sm italic">{{ pub.journal }}</p>
+              {% if pub.url %}
+                <a href="{{ pub.url }}" class="inline-block mt-2 text-blue-600 hover:underline">[PDF]</a>
+              {% endif %}
+            </div>
+        </article>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</div>

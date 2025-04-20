@@ -7,3 +7,136 @@
     border-radius: 50% !important;
   }
 }
+
+.featured-publications {
+  margin: 2em 0;
+}
+
+
+.pub-item {
+  display: flex;
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.pub-image {
+  flex: 0 0 220px; /* 增大图片区域 */
+  margin-right: 25px;
+}
+
+.pub-image img {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  max-height: 180px; /* 控制图片高度 */
+  object-fit: contain;
+}
+
+.pub-content {
+  flex: 1;
+  padding-left: 10px; /* 文字部分稍微靠右 */
+}
+
+.pub-venue {
+  margin: 0 0 0.5em 0;
+  color: #1976d2; /* 蓝色 */
+  font-size: 1em; /* 使用正常字号 */
+  font-weight: normal;
+}
+
+.pub-title {
+  margin: 0 0 0.6em 0;
+  font-size: 1em; /* 使用正常字号 */
+  font-weight: bold;
+}
+
+.pub-excerpt {
+  font-size: 0.95em;
+  margin-bottom: 1em;
+}
+
+.pub-links {
+  margin-top: 0.5em;
+}
+
+.pub-link {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: bold;
+  color: #2e7d32; /* 绿色 */
+}
+
+.see-all-link {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Education section styling */
+.page__content h2 {
+  border-bottom: 1px solid #f2f3f3;
+  padding-bottom: 0.5em;
+  margin: 1.5em 0 0.5em;
+}
+
+.page__content ul li {
+  margin-bottom: 1.5em;
+}
+
+.page__content ul {
+  padding-left: 1.5em;
+}
+.publication-featured-image {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.publication-featured-image img {
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #eaeaea;
+}
+
+.archive__item-teaser {
+  margin-bottom: 1em;
+}
+
+.archive__item-teaser img {
+  max-width: 250px;
+  max-height: 150px;
+  border: 1px solid #eaeaea;
+}
+
+/* 全局容器 */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media (min-width: 768px) {
+  .container { max-width: 1200px; }
+}
+
+/* About 页面 */
+.author-profile img {
+  max-width: 200px;
+  width: 100%;
+}
+.prose-lg {
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+/* Publications 列表 */
+.prose-sm h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.25em;
+}
+.prose-sm p {
+  font-size: 0.875rem;
+  color: #4a4a4a;
+}
+img.rounded-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+

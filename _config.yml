@@ -189,9 +189,9 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  #teaching:
+    #output: true
+    #permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -242,15 +242,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+
   # _talks
   - scope:
       path: ""
@@ -259,14 +251,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _gallery
-  - scope:
-      path: ""
-      type: gallery
-    values:
-      layout: single
-      author_profile: true
-      share: true
+
 
 # Sass/SCSS
 sass:

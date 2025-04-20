@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 
-# Zixuan Xu (徐子璇)
-
-I am a Ph.D. candidate in Transportation Engineering at the Cho Chun Shik Graduate School of Mobility at Korea Advanced Institute of Science and Technology (KAIST). I work in the HumanFACTS Lab under the supervision of Professor Tiantianchen, where we focus on advancing transportation systems through artificial intelligence and human-centered design.
+Hello, I am Zixuan. I am a Ph.D. candidate in Transportation Engineering at the Cho Chun Shik Graduate School of Mobility at Korea Advanced Institute of Science and Technology (KAIST). I work in the HumanFACTS Lab under the supervision of Professor Tiantianchen, where we focus on advancing transportation systems through artificial intelligence and human-centered design.
 
 My research is situated at the intersection of Generative AI, Human-Machine Interaction (HMI), and Autonomous Vehicles (AVs). I focus on leveraging advanced AI, particularly Large Language Models (LLMs), to create safer, more intuitive, and personalized interactions within intelligent transportation systems. This includes exploring human factors, communication dynamics, and interface design for AVs. Additionally, my work addresses critical safety and societal considerations essential for the responsible deployment of intelligent vehicles, specifically examining AI ethics and cybersecurity challenges.
 
@@ -35,5 +33,22 @@ My work seeks to answer fundamental questions about our future with intelligent 
 ## Latest News
 
 {% include news-feed.html %}
-
 [View All News](/news/)
+
+## Recent Publications
+
+{% include featured-publications.html %}
+[View All Publications](/publications/)
+
+## Education
+
+- Ph.D., Civil & Environmental Engineering (Transportation), 
+  Korea Advanced Institute of Science and Technology (KAIST), 2023-present
+  
+
+- M.S., Data-Driven Modeling,
+  The Hong Kong University of Science and Technology (HKUST), 2022-2023
+  
+
+- B.S., Traffic Engineering,
+  Tongji University, 2018-2022

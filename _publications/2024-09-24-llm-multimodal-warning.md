@@ -7,6 +7,8 @@ excerpt: 'This paper presents a multimodal warning system powered by Large Langu
 date: 2024-09-24
 venue: '2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)'
 paperurl: 'https://doi.org/10.1109/ITSC.2024.1234567'
+image: '/images/publications/llm-multimodal-warning.jpg'
+
 ---
 
 ## Abstract

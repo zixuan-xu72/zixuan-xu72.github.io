@@ -6,7 +6,7 @@ permalink: /publication/2025-04-01-llm-ethics-av
 excerpt: 'Large Language Models (LLMs) are increasingly used in autonomous driving, yet their ethical decision-making remains under-explored. This study proposes a framework to evaluate LLM ethics using a stated preference survey with 13,122 dilemma scenarios.'
 date: 2025-04-01
 venue: 'Travel Behaviour and Society'
-paperurl: 'https://doi.org/10.1016/j.tbs.2025.101039'
+image: '/images/publications/llm-ethics-av.jpg'
 ---
 
 ## Abstract
