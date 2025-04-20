@@ -11,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 完整 checkout，保留凭据以便后续 push
-      - uses: actions/checkout@v3
+      - name: Checkout repository at master
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0            # 拉取完整历史，避免 shallow clone
-          persist-credentials: true # 保留 GITHUB_TOKEN，用于 git push
+          ref: master               # 一定要签出 master 分支
+          fetch-depth: 0            # 完整历史
+          persist-credentials: true # 保留凭据用于 git push
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -35,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 2. 整合远端最新提交
+          # 已在 master 分支，直接拉取并衍合远端改动
           git pull --rebase origin master || true
           git add .
           git commit -m "Automated update of talk locations" || echo "No changes to commit"
