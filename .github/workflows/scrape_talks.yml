@@ -11,30 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
       with:
-        fetch-depth: 0        # 拿全量历史
-        persist-credentials: true  # 保留推送凭证
+        fetch-depth: 0            # 拉取完整历史
+        clean: true               # 工作区干净
+        persist-credentials: true # 保留推送认证
 
+    - name: Align with remote
+      run: |
+        git fetch origin master
+        git reset --hard origin/master
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'  # Specify the Python version you need
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
-        pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
+        pip install jupyter pandas requests beautifulsoup4 geopy
         pip install getorg --upgrade
 
     - name: Run Jupyter Notebook
       run: |
-        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap.ipynb
 
     - name: Commit changes
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add .
+        git add talkmap.ipynb
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
-        git push
+        git push origin master
