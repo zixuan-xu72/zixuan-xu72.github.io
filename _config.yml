@@ -13,9 +13,9 @@ title                    : "Zixuan Xu"
 title_separator          : "-"
 name                     : &name "Zixuan Xu"
 description              : &description "PhD Candidate in Transportation Engineering at KAIST"
-url                      : https://zixuan-xu.github.io # Replace with your GitHub username
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yourusername/yourusername.github.io" # Replace with your GitHub username/repo
+url                      : https://zixuan-xu72.github.io # Replace with your GitHub username
+baseurl                  : "https://zixuan-xu72.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "zixuan-xu72/zixuan-xu72.github.io" # Replace with your GitHub username/repo
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
