@@ -6,11 +6,19 @@ on:
       - 'talks/**'
       - 'talkmap.ipynb'
 
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Clean working directory
+        run: |
+          git clean -fdx
+          git reset --hard HEAD
+
       - name: Checkout repository at master
         uses: actions/checkout@v3
         with:
@@ -40,7 +48,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin master
           git pull --rebase origin master || true
           git add .
           git commit -m "Automated update of talk locations" || echo "No changes to commit"
