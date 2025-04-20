@@ -33,7 +33,12 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git pull origin master  # Pull changes before committing
         git add .
-        git commit -m "Automated update of talk locations" || echo "No changes to commit"
-        git push
+        if ! git diff --cached --quiet; then
+          git commit -m "Automated update of talk locations"
+          git fetch origin
+          git rebase origin/master
+          git push origin master
+        else
+          echo "No changes to commit"
+        fi

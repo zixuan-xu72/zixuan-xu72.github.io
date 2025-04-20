@@ -25,13 +25,13 @@ During my PhD stage, I seeks to answer fundamental questions about our future wi
 
 ## Research Interests
 
-- **Generative AI**: Large Language Models (LLMs), Vision-Language Models (VLMs)
+- **Generative AI**: Large Language Models (LLMs), Vision-Language Models (VLMs), Reasoning model
 - **Human-Machine Interaction (HMI)**: Multimodal interaction, Human-In-The-Loop interaction 
 - **Autonomous Vehicles (AVs)**: Driver assistance systems, hazard perception, trustworthy of AVs
 - **AI Ethics & Safety**: Ethical decision-making, trust, transparency
 - **Human Factors & Ergonomics**: Driver behavior modelling, cognitive modeling, user-centered design
 
-
+I’m always exclited to learn from and collaborate with those interested in my research! Currently, my main focus is on applying LLMs to in sovling Human-machine interaction promlem(driver, passenger, pedestrian centric) for AVs. Feel free to reach out via email (zixuan.xu@kaist.ac.kr)—I’d love to connect and discuss further!
 
 ## Latest News
 
