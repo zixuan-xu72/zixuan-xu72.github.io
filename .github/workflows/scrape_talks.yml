@@ -11,7 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0        # 拿全量历史
+        persist-credentials: true  # 保留推送凭证
+
 
     - name: Set up Python
       uses: actions/setup-python@v2
