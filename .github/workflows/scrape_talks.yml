@@ -17,6 +17,10 @@ jobs:
           ref: master               # 一定要签出 master 分支
           fetch-depth: 0            # 完整历史
           persist-credentials: true # 保留凭据用于 git push
+      - name: Clean working directory
+        run: |
+          git clean -fdx
+          git reset --hard HEAD
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -36,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 已在 master 分支，直接拉取并衍合远端改动
+          git fetch origin master
           git pull --rebase origin master || true
           git add .
           git commit -m "Automated update of talk locations" || echo "No changes to commit"
