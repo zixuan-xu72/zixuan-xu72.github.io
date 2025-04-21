@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 
-Hello, I am Zixuan, a Ph.D. student in Transportation at the [Cho Chun Shik Graduate School of Mobility](https://mobility.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). I work in the [🚗 HumanFACTS Lab](https://humanfacts.kaist.ac.kr/) under the supervision of [Dr. Tiantian(Nicole) Chen](https://sites.google.com/view/tiantianchen/), where we are dedicated to advancing transportation safety through human-centered research and innovation.
+Hello, I am Zixuan, a Ph.D. student in Transportation at the [Cho Chun Shik Graduate School of Mobility](https://mobility.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). I work in the [🚗 HumanFACTS Lab](https://human-facts.kaist.ac.kr/) under the supervision of [Dr. Tiantian(Nicole) Chen](https://sites.google.com/view/chentiantian/home), where we are dedicated to advancing transportation safety through human-centered research and innovation.
 
 My research interest lies in the intersection of <span style="color: #FF8C00;">Generative AI</span>, <span style="color: #FF8C00;">Human-Machine Interaction (HMI)</span>, and <span style="color: #FF8C00;">Autonomous Vehicles (AVs)</span>. I focus on leveraging advanced AI, particularly Large Language Models (LLMs), to create safer, more intuitive, and personalized interactions within intelligent transportation systems. This includes exploring human factors, communication methods, and interface design for AVs. 
 
