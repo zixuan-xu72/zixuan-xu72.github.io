@@ -133,10 +133,23 @@
   margin-bottom: 0.25em;
 }
 .prose-sm p {
-  font-size: 0.875rem;
+  font-size: 0.5rem;
   color: #4a4a4a;
 }
 img.rounded-lg {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* 添加到你的自定义CSS文件 */
+.page__content p {
+  margin-bottom: 0.5em;
+}
+
+.page__content ul li {
+  margin-bottom: 0.3em;
+}
+
+.page__content h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}

@@ -31,7 +31,14 @@ author_profile: true
               <p class="text-sm text-gray-600">{{ pub.authors }}</p>
               <p class="text-sm italic">{{ pub.journal }}</p>
               {% if pub.url %}
-                <a href="{{ pub.url }}" class="inline-block mt-2 text-blue-600 hover:underline">[PDF]</a>
+                <a href="{{ pub.url }}" class="inline-block mt-2 text-blue-600 hover:underline">[Detail]</a>
+              {% endif %}
+              {% if pub.paperurl %}
+                <a href="{{ pub.paperurl }}"
+                  download
+                  class="inline-block mt-2 text-black font-bold hover:underline ml-2">
+                  [Download]
+                </a>
               {% endif %}
             </div>
         </article>

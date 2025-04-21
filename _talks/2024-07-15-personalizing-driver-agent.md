@@ -8,9 +8,6 @@ date: 2024-07-15
 location: "Kyoto, Japan"
 ---
 
-<img src="/images/talks/kyoto-workshop-2024.jpg" alt="Presenting at Kyoto University Workshop" style="width: 100%; margin-bottom: 20px;">
-
-I was invited to present our work on personalizing driver agents using large language models at the Workshop on Traffic Safety Applications held at Kyoto University, Japan.
 
 ## Talk Abstract
 

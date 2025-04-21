@@ -7,29 +7,33 @@ author_profile: true
 
 {% include base_path %}
 
+
 <ul class="news-list-full">
   <li class="news-item-full">
     <h3 class="news-date-full">April 2025</h3>
     <div class="news-content-full">
-      <p>My paper, "<strong>Personalizing Driver Agent Using Large Language Models for Driving Safety and Smarter Human–Machine Interactions</strong>," has been accepted for publication in IEEE Intelligent Transportation Systems Magazine!</p>
+      <p>My paper, "<strong>Where is morality on wheels? Decoding large language model (LLM)-driven decision in the ethical dilemmas of autonomous vehicles</strong>," has been accepted for publication in Travel Behaviour and Society
+      <a href="https://www.sciencedirect.com/science/article/pii/S2214367X25000572" target="_blank" rel="noopener">link</a>.
+      </p>
     </div>
   </li>
 
   <li class="news-item-full">
     <h3 class="news-date-full">April 2025</h3>
     <div class="news-content-full">
-      <p>My paper, "<strong>Where is morality on wheels? Decoding large language model (LLM)-driven decision in the ethical dilemmas of autonomous vehicles</strong>," is now available online in Travel Behaviour and Society.</p>
+      <p>My paper, "<strong>Personalizing Driver Agent Using Large Language Models for Driving Safety and Smarter Human–Machine Interactions</strong>," has been accepted for publication in IEEE Intelligent Transportation Systems Magazine
+      <a href="https://ieeexplore.ieee.org/abstract/document/10945772" target="_blank" rel="noopener">link</a>.
+      </p>
     </div>
   </li>
-
 
   <li class="news-item-full">
     <h3 class="news-date-full">December 2024</h3>
     <div class="news-content-full">
       <p>Honored to receive the <strong>Second Prize in the HKSTS Outstanding Student Paper Award</strong> for my work on LLM ethics in autonomous vehicles.</p>
       <figure class="news-image">
-        <img src="{{ base_path }}/images/news/hksts-presentation-2024.jpg" alt="Presenting at HKSTS 2024">
-        <figcaption>Presenting our research on LLM ethics in autonomous vehicles</figcaption>
+        
+        
       </figure>
     </div>
   </li>
@@ -52,7 +56,7 @@ author_profile: true
   <li class="news-item-full">
     <h3 class="news-date-full">August 2022</h3>
     <div class="news-content-full">
-      <p>Awarded the <strong>Entry Scholarship for MSc in Data-Driven Modelling (2022-2023)</strong> at The Hong Kong University of Science and Technology.</p>
+      <p>Awarded the <strong>Entry Scholarship for MSc in Data-Driven Modelling (2022-2023)</strong> at The Hong Kong University of Science and Technology (HKUST).</p>
     </div>
   </li>
 </ul>

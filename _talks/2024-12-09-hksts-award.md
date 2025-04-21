@@ -10,8 +10,8 @@ location: "Hong Kong"
 
 <div class="talk-images">
   <figure>
-    <img src="/images/talks/hksts-2024-discussion.jpg" alt="Discussion session after presentation" style="width: 100%;">
-    <figcaption>Engaging in discussion with conference attendees about AI ethics in transportation</figcaption>
+    <img src="/images/talks/hksts-2024-discussion.jpg" alt="Discussion session after presentation" style="width: 50%; margin-bottom: 20px;">
+
   </figure>
 </div>
 

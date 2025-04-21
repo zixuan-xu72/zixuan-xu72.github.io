@@ -6,7 +6,7 @@ permalink: /publication/2024-09-24-llm-multimodal-warning
 excerpt: 'This paper presents a multimodal warning system powered by Large Language Models to enhance driver safety and assistance.'
 date: 2024-09-24
 venue: '2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)'
-paperurl: 'https://doi.org/10.1109/ITSC.2024.1234567'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10919879'
 image: '/images/publications/llm-multimodal-warning.jpg'
 
 ---

@@ -8,7 +8,7 @@ date: 2024-09-24
 location: "Edmonton, Canada"
 ---
 
-<img src="/images/talks/itsc-2024-presentation.jpg" alt="Presenting at ITSC 2024" style="width: 100%; margin-bottom: 20px;">
+<img src="/images/talks/itsc-2024-presentation.jpg" alt="Presenting at ITSC 2024" style="width: 50%; margin-bottom: 20px;">
 
 I presented our research on a multimodal warning system for driver assistance powered by Large Language Models at the 2nd Workshop on Large Language and Vision Models for Autonomous Driving (LLVM-AD), which was co-located with IEEE ITSC 2024 in Edmonton, Canada.
 
