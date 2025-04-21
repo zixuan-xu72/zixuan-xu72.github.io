@@ -18,7 +18,7 @@ Additionally, my work addresses critical safety and societal considerations esse
 
 ## Research Vision
 
-During my PhD stage, I seeks to answer fundamental questions about our future with intelligent systems, including but not limited to:
+During my PhD stage, I seek to answer several questions about our future with intelligent systems, including but not limited to:
 
 -  🤖 **LLMs for AV Interaction**: How can LLMs enhance human-machine interaction in autonomous vehicles (applications, function, reliance)?
 
