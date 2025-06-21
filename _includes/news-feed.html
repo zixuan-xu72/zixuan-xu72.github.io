@@ -1,58 +1,210 @@
 <div class="news-feed">
-    <div class="news-item">
-      <span class="news-date">April 2025</span>
+  <div class="news-header">
+    <h2>Latest News</h2>
+    <a href="/news/" class="view-all-link">View All →</a>
+  </div>
+  
+  <div class="news-timeline">
+    <!-- HKSTS Outstanding Student Paper Award -->
+    <div class="news-item highlight" data-date="December 2024">
+      <div class="news-marker award"></div>
       <div class="news-content">
-        Paper published in <strong>IEEE Intelligent Transportation Systems Magazine</strong>
+        <div class="news-date">December 2024</div>
+        <div class="news-text">
+          <i class="fas fa-trophy news-icon"></i>
+          <div class="news-description">
+            Received <strong>HKSTS Outstanding Student Paper Award (Second Prize)</strong>
+          </div>
+        </div>
       </div>
     </div>
     
-    <div class="news-item">
-      <span class="news-date">April 2025</span>
+    <!-- Doctoral Qualification Exam -->
+    <div class="news-item milestone" data-date="July 2024">
+      <div class="news-marker achievement"></div>
       <div class="news-content">
-        Paper published in <strong>Travel Behaviour and Society</strong>
-      </div>
-    </div>
-    
-    <div class="news-item">
-      <span class="news-date">March 2025</span>
-      <div class="news-content">
-        Received <strong>HKSTS Outstanding Student Paper Award (Second Prize)</strong>
-      </div>
-    </div>
-    
-    <div class="news-item">
-      <span class="news-date">July 2024</span>
-      <div class="news-content">
-        Passed <strong>doctoral qualification exam</strong> at KAIST
+        <div class="news-date">July 2024</div>
+        <div class="news-text">
+          <i class="fas fa-graduation-cap news-icon"></i>
+          <div class="news-description">
+            Passed <strong>doctoral qualification exam</strong> at KAIST
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
+
+<style>
+.news-feed {
+  margin: 2rem 0;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #e1e5e9;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  /* REMOVED: Short border-bottom line */
+  border-bottom: 2px solid #f1f3f4;
+}
+
+.news-header h2 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.view-all-link {
+  color: #4a9ae1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.view-all-link:hover {
+  color: #357abd;
+}
+
+.news-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.news-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  top: 1rem;
+  bottom: 1rem;
+  width: 2px;
+  background: linear-gradient(180deg, #ffd700 0%, #28a745 100%);
+}
+
+.news-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-item:hover {
+  transform: translateX(5px);
+}
+
+.news-marker {
+  position: absolute;
+  left: -1.25rem;
+  top: 0.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4a9ae1;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #4a9ae1;
+  z-index: 1;
+}
+
+.news-marker.award {
+  background: #ffd700;
+  box-shadow: 0 0 0 2px #ffd700;
+}
+
+.news-marker.achievement {
+  background: #28a745;
+  box-shadow: 0 0 0 2px #28a745;
+}
+
+.news-content {
+  padding-left: 0.5rem;
+}
+
+.news-date {
+  font-weight: 700;
+  color: #4a9ae1;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.highlight .news-date {
+  color: #ff8c00;
+}
+
+.milestone .news-date {
+  color: #28a745;
+}
+
+.news-text {
+  color: #2c3e50;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.news-description {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.news-icon {
+  color: #6c757d;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+}
+
+.highlight .news-icon {
+  color: #ffd700;
+}
+
+.milestone .news-icon {
+  color: #28a745;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .news-feed {
+    margin: 1rem -1rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    padding: 1rem;
+  }
   
-  <style>
-    .news-feed {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-left: 3px solid #4a9ae1;
-      padding-left: 15px;
-    }
-    
-    .news-feed .news-item {
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      border-bottom: 1px dotted #eaeaea;
-    }
-    
-    .news-feed .news-item:last-child {
-      border-bottom: none;
-    }
-    
-    .news-feed .news-date {
-      font-weight: bold;
-      color: #4a9ae1;
-      margin-right: 10px;
-    }
-    
-    .news-feed .news-content {
-      display: inline;
-    }
-  </style>
+  .news-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .news-timeline {
+    padding-left: 1.5rem;
+  }
+  
+  .news-timeline::before {
+    left: 0.5rem;
+  }
+  
+  .news-marker {
+    left: -1rem;
+  }
+  
+  .news-text {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .news-icon {
+    align-self: flex-start;
+  }
+}
+</style>

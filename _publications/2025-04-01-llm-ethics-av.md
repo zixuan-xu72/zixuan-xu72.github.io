@@ -24,4 +24,4 @@ Large Language Models (LLMs) are increasingly used in autonomous driving, yet th
 
 This research has significant implications for the development of responsible AI systems in autonomous vehicles, providing a structured approach to understanding and evaluating ethical decision-making processes.
 
-[Download paper here](https://doi.org/10.1016/j.tbs.2025.101039)
+[Download paper](https://doi.org/10.1016/j.tbs.2025.101039)
