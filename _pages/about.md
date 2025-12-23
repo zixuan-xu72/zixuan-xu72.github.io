@@ -27,159 +27,7 @@ During my PhD stage, I seek to answer several questions about our future with in
 - 🧠 **Human Behavior Modeling**: How can computational models accurately capture and predict human behavior/intentions in transportation?
 
 
----
 
-
-<div class="conference-highlight">
-  <div class="conference-badge">
-    <i class="fas fa-calendar-alt"></i>
-    <span>Upcoming</span>
-  </div>
-  
-  <div class="conference-content">
-    <h3>IEEE IV 2025 - Journal Presentation</h3>
-    <p class="conference-details">
-      <strong>📅 Date:</strong> Tuesday, June 24, 2025<br>
-      <strong>⏰ Time:</strong> 15:00-16:15<br>
-      <strong>📍 Location:</strong> Botticelli Room, Grand Hotel Italia, Cluj-Napoca, Romania<br>
-      <strong>🎯 Session:</strong> Journal Paper Presentations
-    </p>
-    
-    <div class="presentation-info">
-      <h4>Presenting:</h4>
-      <p><em>"Personalizing Driver Agent Using Large Language Models for Driving Safety and Smarter Human–Machine Interactions"</em></p>
-      <p><small>Published in IEEE Intelligent Transportation Systems Magazine</small></p>
-    </div>
-    
-    <p class="conference-note">
-      <i class="fas fa-handshake"></i>
-      Looking forward to connecting with researchers and engaging in discussions about LLMs in autonomous vehicles. 
-      See you at IEEE IV 2025! 🚗🤖
-    </p>
-  </div>
-</div>
-
-<style>
-.conference-highlight {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.conference-highlight::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  right: -50%;
-  width: 100%;
-  height: 100%;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></svg>');
-  transform: rotate(45deg);
-  opacity: 0.3;
-}
-
-.conference-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  backdrop-filter: blur(10px);
-}
-
-.conference-content {
-  position: relative;
-  z-index: 1;
-}
-
-.conference-content h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.conference-details {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-.conference-details strong {
-  color: #ffd700;
-}
-
-.presentation-info {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-  backdrop-filter: blur(5px);
-}
-
-.presentation-info h4 {
-  margin: 0 0 0.5rem 0;
-  color: #ffd700;
-  font-size: 1.1rem;
-}
-
-.presentation-info p {
-  margin: 0.5rem 0;
-}
-
-.presentation-info em {
-  font-weight: 600;
-  font-size: 1.05rem;
-}
-
-.presentation-info small {
-  opacity: 0.8;
-  font-style: italic;
-}
-
-.conference-note {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  font-style: italic;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.conference-note i {
-  color: #ffd700;
-  margin-top: 0.2rem;
-  flex-shrink: 0;
-}
-
-@media (max-width: 768px) {
-  .conference-highlight {
-    margin: 1rem -1rem;
-    border-radius: 0;
-    padding: 1.5rem 1rem;
-  }
-  
-  .conference-content h3 {
-    font-size: 1.3rem;
-  }
-  
-  .conference-details {
-    font-size: 0.95rem;
-  }
-}
-</style>
-
-
-
----
 
 <div style="padding: 15px 0;">
   🔬🤝<strong>I am always excited to learn from and collaborate with others interested in these areas. Currently, my primary focus is on applying LLMs to solve human-machine interaction challenges (centering on drivers, passengers, and pedestrians) for AVs.</strong>
@@ -199,19 +47,66 @@ During my PhD stage, I seek to answer several questions about our future with in
 
 ## Education
 
-- Ph.D., Transportation, 
-  Korea Advanced Institute of Science and Technology (KAIST), 2023-present <br>
-  *Certified with PhD special scholarship*
+<div class="education-section">
 
-- M.S., Data-Driven Modeling, Department of Physics and the Department of Mathematics,
-  The Hong Kong University of Science and Technology (HKUST), 2022-2023 <br>
-  *Certified with Entry Scholarship*
+<div class="education-item">
+<span class="degree">Ph.D., Transportation</span><br>
+<span class="institution">Korea Advanced Institute of Science and Technology (KAIST)</span><br>
+<span class="scholarship">Certified with PhD Special Scholarship</span><br>
+<span class="duration">2023-present</span>
+</div>
 
+<div class="education-item">
+<span class="degree">M.S., Data-Driven Modeling</span><br>
+<span class="institution">Department of Physics and the Department of Mathematics, The Hong Kong University of Science and Technology (HKUST)</span><br>
+<span class="scholarship">Certified with Entry Scholarship</span><br>
+<span class="duration">2022-2023</span>
+</div>
 
-- B.S., Traffic Engineering,
-  Tongji University, 2018-2022
+<div class="education-item">
+<span class="degree">B.S., Traffic Engineering</span><br>
+<span class="institution">College of Transportation, Tongji University</span><br>
+<span class="duration">2018-2022</span>
+</div>
 
+</div>
 
+<style>
+.education-section {
+  font-family: 'Palatino Linotype', Palatino, 'Georgia', serif;
+  line-height: 1.6;
+}
 
+.education-item {
+  margin-bottom: 1.5rem;
+}
 
+.degree {
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.3px;
+}
 
+.institution {
+  color: #334155;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.duration {
+  color: #64748b;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.scholarship {
+  color: #4338ca;
+  font-style: italic;
+  font-family: 'Palatino Linotype', Palatino, serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+</style>

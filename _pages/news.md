@@ -10,6 +10,22 @@ author_profile: true
 
 <ul class="news-list-full">
   <li class="news-item-full">
+    <h3 class="news-date-full">September 2025</h3>
+    <div class="news-content-full">
+      <p>🏆 Honored to receive <strong>The Outstanding Teaching Assistant Award</strong> from KAIST Cho Chun Shik Graduate School of Mobility for my contributions to MO.60010: Traffic Safety during Spring 2025.
+      </p>
+    </div>
+  </li>
+
+  <li class="news-item-full">
+    <h3 class="news-date-full">June 2025</h3>
+    <div class="news-content-full">
+      <p>📝 My paper, "<strong>LLM-TripPlanner: A Large-Language-Model-Based Agent for Personalized Trip Planning</strong>," has been accepted for presentation at IEEE ITSC 2025.
+      </p>
+    </div>
+  </li>
+
+  <li class="news-item-full">
     <h3 class="news-date-full">April 2025</h3>
     <div class="news-content-full">
       <p>My paper, "<strong>Where is morality on wheels? Decoding large language model (LLM)-driven decision in the ethical dilemmas of autonomous vehicles</strong>," has been accepted for publication in Travel Behaviour and Society

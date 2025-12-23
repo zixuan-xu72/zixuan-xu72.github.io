@@ -3,23 +3,146 @@
 <div class="featured-publications">
   {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
   {% for pub in sorted_pubs limit:3 %}
-    <div class="pub-item mb-6">
-      <div class="pub-image mb-4">
+    <div class="pub-card">
+      <div class="pub-image-wrapper">
         {% if pub.image %}
-          <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" class="w-full rounded-lg shadow-md" />
+          <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" class="pub-img" />
         {% else %}
-          <img src="{{ base_path }}/images/publication-placeholder.jpg" alt="{{ pub.title }}" class="w-full rounded-lg shadow-md" />
+          <img src="{{ base_path }}/images/publication-placeholder.jpg" alt="{{ pub.title }}" class="pub-img" />
         {% endif %}
       </div>
       <div class="pub-content">
-        <p class="pub-venue mb-1">[{{ pub.venue }}]</p>
-        <p class="pub-title font-semibold mb-1">{{ pub.title }}</p>
-        <p class="pub-excerpt mb-2">{{ pub.excerpt | strip_html | truncate:150 }}</p>
-        <p class="pub-links mb-0">
-          {% if pub.paperurl %}<a href="{{ pub.paperurl }}" class="pub-link mr-4">Paper</a>{% endif %}
+        <p class="pub-venue">[{{ pub.venue }}]</p>
+        <h3 class="pub-title">{{ pub.title }}</h3>
+        <p class="pub-excerpt">{{ pub.excerpt | strip_html | truncate:120 }}</p>
+        <div class="pub-links">
+          {% if pub.paperurl %}<a href="{{ pub.paperurl }}" class="pub-link">Paper</a>{% endif %}
           <a href="{{ pub.url | relative_url }}" class="pub-link">More Info</a>
-        </p>
+        </div>
       </div>
     </div>
   {% endfor %}
 </div>
+
+<style>
+.featured-publications {
+  margin: 1.5rem 0;
+}
+
+.pub-card {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  align-items: center;
+}
+
+.pub-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pub-card:last-child {
+  margin-bottom: 0;
+}
+
+/* 图片容器 - 50%宽度 */
+.pub-image-wrapper {
+  flex: 1;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pub-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 内容区域 - 50%宽度 */
+.pub-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pub-venue {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin: 0 0 0.4rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.3;
+  margin: 0 0 0.5rem 0;
+}
+
+.pub-excerpt {
+  color: #6b7280;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 0 0 0.75rem 0;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.pub-link {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.pub-link:hover {
+  background-color: #2563eb;
+  text-decoration: none;
+}
+
+/* 响应式设计 - 移动端改回垂直布局 */
+@media (max-width: 768px) {
+  .pub-card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .pub-image-wrapper {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1rem;
+  }
+  
+  .pub-title {
+    font-size: 0.9rem;
+  }
+  
+  .pub-excerpt {
+    font-size: 0.75rem;
+  }
+}
+</style>
