@@ -18,31 +18,99 @@ author_profile: true
           <h2 class="text-2xl font-semibold mt-8 mb-4">{{ category[1].title }}</h2>
           {% assign shown = true %}
         {% endunless %}
-        <article class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-8">
-          {% if pub.thumbnail %}
-            <div class="md:col-span-3">
-              <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="w-full rounded-lg shadow-md" />
+        {% assign paper_url = pub.paperurl | strip %}
+        <article class="publication-list-item">
+          {% if pub.image %}
+            <div class="publication-list-image">
+              <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" />
             </div>
-            <div class="md:col-span-9 prose prose-sm">
+            <div class="publication-list-content">
           {% else %}
-            <div class="md:col-span-12 prose prose-sm">
+            <div class="publication-list-content publication-list-content--full">
           {% endif %}
-              <h3 class="text-xl font-medium">{{ pub.title }}</h3>
-              <p class="text-sm text-gray-600">{{ pub.authors }}</p>
-              <p class="text-sm italic">{{ pub.journal }}</p>
+              <h3>{{ pub.title }}</h3>
+              {% if pub.venue %}
+                <p class="publication-list-venue">{{ pub.venue }}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}</p>
+              {% elsif pub.date %}
+                <p class="publication-list-venue">{{ pub.date | date: "%Y" }}</p>
+              {% endif %}
+              {% if pub.excerpt %}
+                <p class="publication-list-excerpt">{{ pub.excerpt }}</p>
+              {% endif %}
+              <div class="publication-list-links">
               {% if pub.url %}
-                <a href="{{ pub.url }}" class="inline-block mt-2 text-blue-600 hover:underline">[Detail]</a>
+                <a href="{{ pub.url | relative_url }}">Detail</a>
               {% endif %}
-              {% if pub.paperurl %}
-                <a href="{{ pub.paperurl }}"
-                  download
-                  class="inline-block mt-2 text-black font-bold hover:underline ml-2">
-                  [Download]
-                </a>
+              {% if paper_url and paper_url != "" %}
+                <a href="{{ paper_url }}">Paper</a>
               {% endif %}
+              </div>
             </div>
         </article>
       {% endif %}
     {% endfor %}
   {% endfor %}
 </div>
+
+<style>
+.publication-list-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e6e8eb;
+}
+
+.publication-list-image {
+  flex: 0 0 220px;
+  max-width: 220px;
+}
+
+.publication-list-image img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  border: 1px solid #e6e8eb;
+  background: #fff;
+}
+
+.publication-list-content {
+  flex: 1;
+}
+
+.publication-list-content h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.publication-list-venue {
+  margin: 0 0 0.5rem;
+  color: #4d6475;
+  font-style: italic;
+}
+
+.publication-list-excerpt {
+  margin: 0 0 0.75rem;
+  color: #494e52;
+}
+
+.publication-list-links {
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .publication-list-item {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .publication-list-image {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+</style>

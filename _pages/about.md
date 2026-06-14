@@ -12,9 +12,14 @@ redirect_from:
 
 Hello, I am Zixuan, a Ph.D. student in Transportation at the [Cho Chun Shik Graduate School of Mobility](https://mobility.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). I work in the [🚗 HumanFACTS Lab](https://human-facts.kaist.ac.kr/) under the supervision of [Dr. Tiantian(Nicole) Chen](https://sites.google.com/view/chentiantian/home), where we are dedicated to advancing transportation safety through human-centered research and innovation.
 
-My research interest lies in the intersection of <span style="color: #FF8C00;font-weight: 600;">Generative AI</span>, <span style="color: #FF8C00;font-weight: 600;">Human-Machine Interaction (HMI)</span>, <span style="color: #FF8C00;font-weight: 600;">Traffic Safety</span>, and <span style="color: #FF8C00;font-weight: 600;">Autonomous Vehicles (AVs)</span>. I focus on leveraging advanced AI, particularly Large Language Models (LLMs), to create safer, more intuitive, and personalized interactions within intelligent transportation systems. This includes exploring human factors, communication methods, and interface design for AVs. 
+My research interest lies in the intersection of <span style="color: #FF8C00;">Generative AI</span>, <span style="color: #FF8C00;">Human-Machine Interaction (HMI)</span>, <span style="color: #FF8C00;">Traffic Safety</span>, and <span style="color: #FF8C00;">Autonomous Vehicles (AVs)</span>. I focus on leveraging advanced AI, particularly Large Language Models (LLMs), to create safer, more intuitive, and personalized interactions within intelligent transportation systems. This includes exploring human factors, communication methods, and interface design for AVs.
 
-Additionally, my work addresses critical safety and societal considerations essential for the responsible deployment of intelligent vehicles, specifically examining <span style="color: #FF8C00;font-weight: 600;">AI trustworthiness</span>, <span style="color: #FF8C00;font-weight: 600;">cybersecurity</span> and <span style="color: #FF8C00;font-weight: 600;"> ethical</span> challenges.
+Additionally, my work addresses critical safety and societal considerations essential for the responsible deployment of intelligent vehicles, specifically examining <span style="color: #FF8C00;">AI trustworthiness</span>, <span style="color: #FF8C00;">cybersecurity</span> and <span style="color: #FF8C00;"> ethical</span> challenges.
+
+<div class="mit-visit-callout">
+  <em>Starting in September 2026, I will visit MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.<br>
+  I look forward to meeting people across academia, industry, and the broader mobility community in the U.S.!</em>
+</div>
 
 ## Research Vision
 
@@ -36,6 +41,7 @@ During my PhD stage, I seek to answer several questions about our future with in
 <div style="padding: 5px 0;">
   <strong>Feel free to reach out via email <a href="mailto:zixuan.xu@kaist.ac.kr">zixuan.xu@kaist.ac.kr</a> — I look forward to connecting!</strong>
 </div>
+
 ---
 
 {% include news-feed.html %}
@@ -79,6 +85,21 @@ During my PhD stage, I seek to answer several questions about our future with in
 
 .education-item {
   margin-bottom: 1.5rem;
+}
+
+.mit-visit-callout {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.15rem;
+  border-left: 4px solid rgba(37, 99, 235, 0.7);
+  background: rgba(37, 99, 235, 0.14);
+  border-radius: 6px;
+  color: #2f3a45;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.mit-visit-callout a {
+  font-weight: 600;
 }
 
 .degree {

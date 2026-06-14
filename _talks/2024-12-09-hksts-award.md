@@ -61,4 +61,4 @@ Using a comprehensive factorial design with 13,122 scenarios that varied factors
 
 Our findings have important implications for the development of responsible AI systems in autonomous vehicles, providing a structured approach to understanding and evaluating the ethical reasoning of LLMs in safety-critical applications.
 
-[Download presentation slides (PDF)](/files/talks/hksts-2024-llm-ethics-slides.pdf)
+Presentation slides available upon request.

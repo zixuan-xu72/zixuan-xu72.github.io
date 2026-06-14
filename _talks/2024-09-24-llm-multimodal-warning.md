@@ -28,4 +28,4 @@ In this presentation, I introduced our novel approach to driver assistance syste
 - Multimodal warnings can be more effective than single-channel approaches
 - Personalization remains a key challenge for next-generation driver assistance
 
-[Download slides (PDF)](/files/talks/itsc-2024-llm-warning-slides.pdf)
+Slides available upon request.

@@ -10,6 +10,13 @@ author_profile: true
 
 <ul class="news-list-full">
   <li class="news-item-full">
+    <h3 class="news-date-full">September 2026</h3>
+    <div class="news-content-full">
+      <p>I will visit MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.</p>
+    </div>
+  </li>
+
+  <li class="news-item-full">
     <h3 class="news-date-full">September 2025</h3>
     <div class="news-content-full">
       <p>🏆 Honored to receive <strong>The Outstanding Teaching Assistant Award</strong> from KAIST Cho Chun Shik Graduate School of Mobility for my contributions to MO.60010: Traffic Safety during Spring 2025.

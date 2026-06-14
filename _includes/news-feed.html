@@ -5,6 +5,20 @@
   </div>
   
   <div class="news-timeline">
+    <!-- MIT visiting student -->
+    <div class="news-item visit" data-date="September 2026">
+      <div class="news-marker visit"></div>
+      <div class="news-content">
+        <div class="news-date">September 2026</div>
+        <div class="news-text">
+          <i class="fas fa-building-columns news-icon"></i>
+          <div class="news-description">
+            Will visit MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a>, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- The Outstanding Teaching Assistant Award -->
     <div class="news-item highlight" data-date="September 2025">
       <div class="news-marker award"></div>
@@ -19,29 +33,15 @@
       </div>
     </div>
 
-    <!-- HKSTS Outstanding Student Paper Award -->
-    <div class="news-item highlight" data-date="December 2024">
-      <div class="news-marker award"></div>
+    <!-- LLM-TripPlanner accepted -->
+    <div class="news-item publication" data-date="June 2025">
+      <div class="news-marker publication"></div>
       <div class="news-content">
-        <div class="news-date">December 2024</div>
+        <div class="news-date">June 2025</div>
         <div class="news-text">
-          <i class="fas fa-trophy news-icon"></i>
+          <i class="fas fa-file-lines news-icon"></i>
           <div class="news-description">
-            Received <strong>HKSTS Outstanding Student Paper Award (Second Prize)</strong>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Doctoral Qualification Exam -->
-    <div class="news-item milestone" data-date="July 2024">
-      <div class="news-marker achievement"></div>
-      <div class="news-content">
-        <div class="news-date">July 2024</div>
-        <div class="news-text">
-          <i class="fas fa-graduation-cap news-icon"></i>
-          <div class="news-description">
-            Passed <strong>doctoral qualification exam</strong> at KAIST
+            <strong>LLM-TripPlanner</strong> accepted for presentation at IEEE ITSC 2025
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
   top: 1rem;
   bottom: 1rem;
   width: 2px;
-  background: linear-gradient(180deg, #ffd700 0%, #28a745 100%);
+  background: linear-gradient(180deg, #2563eb 0%, #ffb703 52%, #28a745 100%);
 }
 
 .news-item {
@@ -137,6 +137,12 @@
   box-shadow: 0 0 0 2px #28a745;
 }
 
+.news-marker.visit,
+.news-marker.publication {
+  background: #2563eb;
+  box-shadow: 0 0 0 2px #2563eb;
+}
+
 .news-content {
   padding-left: 0.5rem;
 }
@@ -154,6 +160,11 @@
 
 .milestone .news-date {
   color: #28a745;
+}
+
+.visit .news-date,
+.publication .news-date {
+  color: #2563eb;
 }
 
 .news-text {
@@ -182,6 +193,11 @@
 
 .milestone .news-icon {
   color: #28a745;
+}
+
+.visit .news-icon,
+.publication .news-icon {
+  color: #2563eb;
 }
 
 /* Responsive design */

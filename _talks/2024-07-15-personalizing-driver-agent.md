@@ -29,4 +29,4 @@ The presentation sparked interesting discussions on:
 - Challenges in system validation and testing
 - Regulatory implications for deployment
 
-[Download slides (PDF)](/files/talks/kyoto-llm-pda-2024.pdf)
+Slides available upon request.
