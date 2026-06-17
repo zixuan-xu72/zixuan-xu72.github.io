@@ -17,7 +17,7 @@ My research interest lies in the intersection of <span style="color: #FF8C00;">G
 Additionally, my work addresses critical safety and societal considerations essential for the responsible deployment of intelligent vehicles, specifically examining <span style="color: #FF8C00;">AI trustworthiness</span>, <span style="color: #FF8C00;">cybersecurity</span> and <span style="color: #FF8C00;"> ethical</span> challenges.
 
 <div class="mit-visit-callout">
-  <em>Starting in September 2026, I will visit MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.<br>
+  <em>Starting in September 2026, I will join MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> as a <strong>visiting student</strong> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.<br>
   I look forward to meeting people across academia, industry, and the broader mobility community in the U.S.!</em>
 </div>
 
