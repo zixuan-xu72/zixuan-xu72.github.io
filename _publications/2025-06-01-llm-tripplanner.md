@@ -6,7 +6,7 @@ permalink: /publication/2025-06-01-llm-tripplanner
 excerpt: 'An intelligent trip planning agent powered by Large Language Models that provides personalized travel recommendations and itinerary generation.'
 date: 2025-11-21
 venue: '2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)'
-paperurl: ''
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11423528'
 image: '/images/publications/llm-tripplanner.jpg'
 ---
 

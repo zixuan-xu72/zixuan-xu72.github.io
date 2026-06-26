@@ -17,6 +17,15 @@ author_profile: true
   </li>
 
   <li class="news-item-full">
+    <h3 class="news-date-full">June 2026</h3>
+    <div class="news-content-full">
+      <p>My survey paper, "<a href="/publication/2026-06-25-llm-hmi-av-survey"><strong>Large Language Models for Enhancing Human-Machine Interaction in Autonomous Vehicles: A Comprehensive Survey</strong></a>," has been published online in <em>Transportation Research Part C: Emerging Technologies</em>. The paper reviews 68 studies and introduces the <strong>MODEL - REASON - ACT</strong> interaction loop for LLM-enabled automotive HMI.
+      <a href="https://doi.org/10.1016/j.trc.2026.105819" target="_blank" rel="noopener">link</a>.
+      </p>
+    </div>
+  </li>
+
+  <li class="news-item-full">
     <h3 class="news-date-full">September 2025</h3>
     <div class="news-content-full">
       <p>🏆 Honored to receive <strong>The Outstanding Teaching Assistant Award</strong> from KAIST Cho Chun Shik Graduate School of Mobility for my contributions to MO.60010: Traffic Safety during Spring 2025.

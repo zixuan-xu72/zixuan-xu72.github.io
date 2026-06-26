@@ -3,6 +3,8 @@
 <div class="featured-publications">
   {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
   {% for pub in sorted_pubs limit:3 %}
+    {% assign paper_url = pub.paperurl | strip %}
+    {% assign github_url = pub.githuburl | strip %}
     <div class="pub-card">
       <div class="pub-image-wrapper">
         {% if pub.image %}
@@ -16,8 +18,22 @@
         <h3 class="pub-title">{{ pub.title }}</h3>
         <p class="pub-excerpt">{{ pub.excerpt | strip_html | truncate:120 }}</p>
         <div class="pub-links">
-          {% if pub.paperurl %}<a href="{{ pub.paperurl }}" class="pub-link">Paper</a>{% endif %}
-          <a href="{{ pub.url | relative_url }}" class="pub-link">More Info</a>
+          {% if github_url and github_url != "" %}
+            <a href="{{ github_url }}" class="pub-link pub-link--github" target="_blank" rel="noopener">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+          {% endif %}
+          {% if paper_url and paper_url != "" %}
+            <a href="{{ paper_url }}" class="pub-link pub-link--paper" target="_blank" rel="noopener">
+              <i class="fas fa-file-lines" aria-hidden="true"></i>
+              <span>Paper</span>
+            </a>
+          {% endif %}
+          <a href="{{ pub.url | relative_url }}" class="pub-link pub-link--info">
+            <i class="fas fa-circle-info" aria-hidden="true"></i>
+            <span>More Info</span>
+          </a>
         </div>
       </div>
     </div>
@@ -103,25 +119,58 @@
 }
 
 .pub-links {
-  display: flex;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.45rem;
+  align-items: stretch;
+  width: min(10.5rem, 100%);
 }
 
 .pub-link {
-  display: inline-block;
-  padding: 0.4rem 1rem;
-  background-color: #3b82f6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2rem;
+  padding: 0.42rem 0.9rem;
+  background-color: #475569;
   color: white;
   text-decoration: none;
   border-radius: 4px;
   font-size: 0.8rem;
-  font-weight: 500;
-  transition: background-color 0.2s;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .pub-link:hover {
-  background-color: #2563eb;
+  background-color: #334155;
+  transform: translateY(-1px);
   text-decoration: none;
+}
+
+.pub-link--github {
+  background-color: #24292f;
+}
+
+.pub-link--github:hover {
+  background-color: #111827;
+}
+
+.pub-link--paper {
+  background-color: #2563eb;
+}
+
+.pub-link--paper:hover {
+  background-color: #1d4ed8;
+}
+
+.pub-link--info {
+  background-color: #64748b;
+}
+
+.pub-link--info:hover {
+  background-color: #475569;
 }
 
 /* 响应式设计 - 移动端改回垂直布局 */
