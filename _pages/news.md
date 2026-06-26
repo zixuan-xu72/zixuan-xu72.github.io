@@ -19,7 +19,7 @@ author_profile: true
   <li class="news-item-full">
     <h3 class="news-date-full">June 2026</h3>
     <div class="news-content-full">
-      <p>My survey paper, "<a href="/publication/2026-06-25-llm-hmi-av-survey"><strong>Large Language Models for Enhancing Human-Machine Interaction in Autonomous Vehicles: A Comprehensive Survey</strong></a>," has been published online in <em>Transportation Research Part C: Emerging Technologies</em>. The paper reviews 68 studies and introduces the <strong>MODEL - REASON - ACT</strong> interaction loop for LLM-enabled automotive HMI.
+      <p>My survey paper, "<a href="/publication/2026-06-25-llm-hmi-av-survey">Large Language Models for Enhancing Human-Machine Interaction in Autonomous Vehicles: A Comprehensive Survey</a>," has been published online in <em>Transportation Research Part C: Emerging Technologies</em>. The paper reviews 68 studies and introduces the <strong>MODEL - REASON - ACT</strong> interaction loop for LLM-enabled automotive HMI.
       <a href="https://doi.org/10.1016/j.trc.2026.105819" target="_blank" rel="noopener">link</a>.
       </p>
     </div>
