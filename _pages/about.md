@@ -46,7 +46,7 @@ During my PhD stage, I seek to answer several questions about our future with in
 
 {% include news-feed.html %}
 
-## Recent Publications
+## Featured Publications
 
 {% include featured-publications.html %}
 [View All Publications](/publications/)

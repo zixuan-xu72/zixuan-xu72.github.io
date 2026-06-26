@@ -1,8 +1,10 @@
 {% include base_path %}
 
 <div class="featured-publications">
-  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-  {% for pub in sorted_pubs limit:3 %}
+  {% assign featured_publication_permalinks = "/publication/2026-06-25-llm-hmi-av-survey,/publication/2025-04-15-llm-pda,/publication/2025-12-01-metassc" | split: "," %}
+  {% for featured_permalink in featured_publication_permalinks %}
+    {% assign pub = site.publications | where: "permalink", featured_permalink | first %}
+    {% if pub %}
     {% assign paper_url = pub.paperurl | strip %}
     {% assign github_url = pub.githuburl | strip %}
     <div class="pub-card">
@@ -37,6 +39,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -96,11 +99,14 @@
 
 .pub-venue {
   color: #3b82f6;
-  font-weight: 600;
-  font-size: 0.75rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.82rem;
+  line-height: 1.35;
   margin: 0 0 0.4rem 0;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .pub-title {
