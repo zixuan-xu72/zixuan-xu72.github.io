@@ -1,7 +1,7 @@
 {% include base_path %}
 
 <div class="featured-publications">
-  {% assign featured_publication_permalinks = "/publication/2026-06-25-llm-hmi-av-survey,/publication/2025-04-15-llm-pda,/publication/2025-12-01-metassc" | split: "," %}
+  {% assign featured_publication_permalinks = "/publication/2026-06-25-llm-hmi-av-survey,/publication/2025-04-15-llm-pda,/publication/2025-04-01-llm-ethics-av" | split: "," %}
   {% for featured_permalink in featured_publication_permalinks %}
     {% assign pub = site.publications | where: "permalink", featured_permalink | first %}
     {% if pub %}
