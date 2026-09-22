@@ -12,7 +12,7 @@ author_profile: true
   <li class="news-item-full">
     <h3 class="news-date-full">September 2026</h3>
     <div class="news-content-full">
-      <p>I will join MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> as a <strong>visiting student</strong> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.</p>
+      <p>I have joined MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> as a <strong>visiting student</strong> in the Department of Urban Studies and Planning, supervised by <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.</p>
     </div>
   </li>
 

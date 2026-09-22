@@ -22,11 +22,11 @@ repository               : "zixuan-xu72/zixuan-xu72.github.io" # Replace with yo
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-photo.jpg" # Replace with your profile image
+  avatar           : "profile.jpg" # Replace with your profile image
   name             : "Zixuan Xu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student @ KAIST<br>Incoming Visiting Student @ MIT"
-  location         : "Daejeon, South Korea"
+  bio              : "PhD Student @ KAIST<br>Visiting Student @ MIT"
+  location         : "Cambridge, MA, USA"
   employer         : "Korea Advanced Institute of Science and Technology"
   uri              : # Your personal website URL
   email            : "zixuan.xu@kaist.ac.kr"
