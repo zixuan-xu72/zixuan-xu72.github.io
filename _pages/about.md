@@ -57,6 +57,12 @@ During my PhD stage, I seek to answer several questions about our future with in
 <div class="education-section">
 
 <div class="education-item">
+<span class="degree">Visiting PhD Student</span><br>
+<span class="institution">Massachusetts Institute of Technology (MIT), Department of Urban Studies and Planning</span><br>
+<span class="duration">September 2026–present</span>
+</div>
+
+<div class="education-item">
 <span class="degree">Ph.D., Transportation</span><br>
 <span class="institution">Korea Advanced Institute of Science and Technology (KAIST)</span><br>
 <span class="scholarship">Certified with KAIST Prestige Scholarship for International Ph.D. Students (KPS)</span><br>
