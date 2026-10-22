@@ -1,0 +1,36 @@
+# Newest first. `selected: true` items appear on the homepage; the CV lists all.
+# `venue` is the short form used on the homepage, `org` the full form used on the CV.
+
+- date: 2026-07-01
+  title: "Best Lightning Talk Award"
+  venue: "CICTP 2026"
+  org: "26th COTA International Conference of Transportation Professionals (CICTP 2026), Jinan, China"
+  selected: true
+
+- date: 2026-02-01
+  title: "Readers’ Choice Award"
+  venue: "KAIST Breakthroughs"
+  org: "KAIST Breakthroughs (College of Engineering Research Webzine)"
+
+- date: 2025-09-01
+  title: "Outstanding Teaching Assistant Award"
+  venue: "KAIST"
+  org: "KAIST Cho Chun Shik Graduate School of Mobility"
+  selected: true
+
+- date: 2024-12-01
+  title: "Outstanding Student Paper Award (Second Prize)"
+  venue: "HKSTS"
+  org: "28th International Conference of the Hong Kong Society for Transportation Studies (HKSTS)"
+  selected: true
+
+- date: 2023-09-01
+  title: "KAIST Prestige Scholarship for International Ph.D. Students"
+  venue: "KAIST"
+  org: "Korea Advanced Institute of Science and Technology (KAIST)"
+  selected: true
+
+- date: 2022-09-01
+  title: "Entry Scholarship"
+  venue: "HKUST"
+  org: "The Hong Kong University of Science and Technology (HKUST)"

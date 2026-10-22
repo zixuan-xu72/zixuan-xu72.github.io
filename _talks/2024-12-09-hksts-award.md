@@ -1,11 +1,12 @@
 ---
-title: "How Does the Large Language Model Decide to Save Pedestrians or Passengers? Evaluation of Ethical Dilemmas in ChatGPT-based Decision-making of Autonomous Vehicles"
+title: "How does the large language model decide to save pedestrians or passengers? Evaluation of ethical dilemmas in ChatGPT-based decision-making of autonomous vehicles"
 collection: talks
-type: "Conference presentation with award"
+type: "Conference presentation"
 permalink: /talks/2024-12-09-hksts-award
-venue: "28th International Conference of Hong Kong Society for Transportation Studies (HKSTS)"
+venue: "28th International Conference of the Hong Kong Society for Transportation Studies (HKSTS)"
 date: 2024-12-09
-location: "Hong Kong"
+location: "Hong Kong SAR, China"
+award: "Outstanding Student Paper Award (Second Prize)"
 ---
 
 <div class="talk-images">

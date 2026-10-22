@@ -1,0 +1,41 @@
+# Newest first. /news/ shows every item, grouped by year.
+# `text` is rendered as Markdown.
+
+- date: 2026-09-01
+  text: "Joined MIT's Department of Urban Studies and Planning as a Visiting Student Researcher, working with [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/) in the [JTL Urban Mobility Lab](https://mobility.mit.edu/)."
+
+- date: 2026-09-01
+  text: "Gave an invited industry seminar on large language models for intelligent vehicles at the Korea Automotive Technology Institute (KATECH)."
+
+- date: 2026-07-01
+  text: "Received the Best Lightning Talk Award at CICTP 2026."
+
+- date: 2026-06-01
+  text: "Survey paper on [large language models for human–machine interaction in autonomous vehicles](/publication/2026-06-25-llm-hmi-av-survey) published in *Transportation Research Part C*."
+
+- date: 2026-02-01
+  text: "Received the Readers’ Choice Award from KAIST Breakthroughs, the College of Engineering research webzine."
+
+- date: 2025-12-01
+  text: "Gave two talks at HKSTS 2025, on [LLM-TripPlanner](/publication/2025-06-01-llm-tripplanner) and on LLM decision-making in ethical dilemmas of autonomous vehicles."
+
+- date: 2025-09-01
+  text: "Received the Outstanding Teaching Assistant Award from the KAIST Cho Chun Shik Graduate School of Mobility (MO.60010: Traffic Safety, Spring 2025)."
+
+- date: 2025-06-01
+  text: "[LLM-TripPlanner](/publication/2025-06-01-llm-tripplanner) accepted to IEEE ITSC 2025."
+
+- date: 2025-04-01
+  text: "Two journal papers accepted: [LLM ethics in autonomous-vehicle dilemmas](/publication/2025-04-01-llm-ethics-av) in *Travel Behaviour and Society*, and [the LLM-based Personalized Driver Agent](/publication/2025-04-15-llm-pda) in *IEEE Intelligent Transportation Systems Magazine*."
+
+- date: 2024-12-01
+  text: "Received the Outstanding Student Paper Award (Second Prize) at HKSTS 2024 for work on LLM ethics in autonomous vehicles."
+
+- date: 2024-07-01
+  text: "Passed the Ph.D. qualifying examination at KAIST."
+
+- date: 2023-09-01
+  text: "Started my Ph.D. at KAIST with the KAIST Prestige Scholarship for International Ph.D. Students."
+
+- date: 2022-08-01
+  text: "Started the M.S. in Data-Driven Modeling at HKUST with an Entry Scholarship."

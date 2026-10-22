@@ -1,0 +1,17 @@
+{% comment %}
+  Honors and awards from _data/awards.yml.
+    selected - true for the short homepage list (year, title, short venue);
+               otherwise every award with its full organization
+    wide     - true to match the wider date column used on the CV
+{% endcomment %}
+<ul class="dated-list{% if include.wide %} dated-list--wide{% endif %}">
+  {%- for award in site.data.awards %}
+    {%- if include.selected %}
+      {%- if award.selected %}
+  <li><span class="dated-list__date">{{ award.date | date: "%Y" }}</span><span class="dated-list__text">{{ award.title }}, {{ award.venue }}</span></li>
+      {%- endif %}
+    {%- else %}
+  <li><span class="dated-list__date">{{ award.date | date: "%b %Y" }}</span><span class="dated-list__text"><strong>{{ award.title }}</strong><br><span class="dated-list__meta">{{ award.org }}</span></span></li>
+    {%- endif %}
+  {%- endfor %}
+</ul>

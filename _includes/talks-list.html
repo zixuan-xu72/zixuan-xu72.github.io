@@ -1,0 +1,11 @@
+{% comment %}
+  Talks from _talks/, newest first. Front matter: title, date, venue, and
+  optionally type, location and award.
+    wide - true to match the wider date column used on the CV
+{% endcomment %}
+{%- assign talks = site.talks | sort: "date" | reverse -%}
+<ul class="dated-list{% if include.wide %} dated-list--wide{% endif %}">
+  {%- for talk in talks %}
+  <li><span class="dated-list__date">{{ talk.date | date: "%b %Y" }}</span><span class="dated-list__text"><span class="dated-list__title">{{ talk.title }}</span><br><span class="dated-list__meta">{% if talk.type %}<span class="talk-type">{{ talk.type }}</span> {% endif %}{{ talk.venue }}{% if talk.location %} · {{ talk.location }}{% endif %}</span>{% if talk.award %}<br><span class="talk-award"><i class="fa-solid fa-award" aria-hidden="true"></i> {{ talk.award }}</span>{% endif %}</span></li>
+  {%- endfor %}
+</ul>

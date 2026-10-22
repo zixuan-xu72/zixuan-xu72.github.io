@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Zixuan Xu"
 title_separator          : "-"
 name                     : &name "Zixuan Xu"
-description              : &description "PhD Candidate"
+description              : &description "Ph.D. candidate at KAIST and Visiting Student Researcher at MIT, working on human-centered AI and human–AI interaction."
 url                      : https://zixuan-xu72.github.io # Replace with your GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zixuan-xu72/zixuan-xu72.github.io" # Replace with your GitHub username/repo
@@ -25,12 +25,15 @@ author:
   avatar           : "profile-square.jpg" # Replace with your profile image
   name             : "Zixuan Xu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student @ KAIST<br>Visiting Student @ MIT"
+  bio              : "Ph.D. Candidate, KAIST<br>Visiting Student Researcher, MIT"
   location         : "Cambridge, MA, USA"
-  employer         : "Korea Advanced Institute of Science and Technology"
+  employer         : # Affiliations are already listed in the bio
   uri              : # Your personal website URL
-  email            : "zixuan.xu@kaist.ac.kr"
-  
+  email            : "zixuan72@mit.edu"
+  emails           : # Shown in the sidebar instead of `email` when set
+    - "zixuan72@mit.edu"
+    - "zixuan.xu@kaist.ac.kr"
+
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=OtcxWQMAAAAJ"
@@ -53,12 +56,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Proceedings'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -94,7 +95,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -148,8 +149,18 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - CONTRIBUTING.md
+  - docker-compose.yaml
   - Dockerfile
   - Gemfile
+  - Gemfile.lock
+  - markdown_generator
+  - README.md
+  - scripts
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -196,11 +207,8 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
-    output: true
+    output: false # talks are listed on /talks/ and the CV; no page per talk
     permalink: /:collection/:path/
 
 
@@ -241,8 +249,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
 
   # _talks
   - scope:

@@ -1,140 +1,84 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
-
-
 ---
 
+<section class="home-section home-section--intro" markdown="1">
 
-Hello, I am Zixuan, a Ph.D. student in Transportation at the [Cho Chun Shik Graduate School of Mobility](https://mobility.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). I work in the [🚗 HumanFACTS Lab](https://human-facts.kaist.ac.kr/) under the supervision of [Dr. Tiantian(Nicole) Chen](https://sites.google.com/view/chentiantian/home), where we are dedicated to advancing transportation safety through human-centered research and innovation.
+## <span class="section-icon"><i class="fa-solid fa-user" aria-hidden="true"></i></span>About
 
-I am currently a <strong>visiting student</strong> at MIT's <a href="https://mobility.mit.edu/" target="_blank" rel="noopener">JTL Urban Mobility Lab and Transit Lab</a> in the Department of Urban Studies and Planning, working with <a href="https://mobility.mit.edu/people/jinhua-zhao/" target="_blank" rel="noopener">Prof. Jinhua Zhao</a>.
+I am a **Ph.D. candidate at KAIST**, advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home), and currently a **Visiting Student Researcher at MIT**, working with [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/).
+{: .lead}
 
-My research interest lies in the intersection of <span style="color: #FF8C00;">Generative AI</span>, <span style="color: #FF8C00;">Human-Machine Interaction (HMI)</span>, <span style="color: #FF8C00;">Traffic Safety</span>, and <span style="color: #FF8C00;">Autonomous Vehicles (AVs)</span>. I focus on leveraging advanced AI, particularly Large Language Models (LLMs), to create safer, more intuitive, and personalized interactions within intelligent transportation systems. This includes exploring human factors, communication methods, and interface design for AVs.
+My research focuses on **human-centered AI for intelligent and autonomous systems**. I develop adaptive, safety-aware AI assistance that accounts for human needs and environmental context, primarily using intelligent vehicles as a research setting. Beyond system design, I investigate how people interpret and respond to AI, including its implications for human judgment, reliance, and behavior. Building on this work, I am extending my research toward **human–autonomy coordination**, exploring how interactions between people and autonomous agents may shape broader mobility systems.
 
-Additionally, my work addresses critical safety and societal considerations essential for the responsible deployment of intelligent vehicles, specifically examining <span style="color: #FF8C00;">AI trustworthiness</span>, <span style="color: #FF8C00;">cybersecurity</span> and <span style="color: #FF8C00;"> ethical</span> challenges.
-
-<div class="mit-visit-callout">
-  <em>I'm currently based in Cambridge, MA, and would be happy to connect with researchers and collaborators in the Boston area and beyond.</em>
+<div class="postdoc-callout">
+  <div class="postdoc-callout__body">
+    <p class="postdoc-callout__tag"><span class="postdoc-callout__dot" aria-hidden="true"></span>Open to work</p>
+    <p class="postdoc-callout__title">I am seeking postdoctoral opportunities starting in Fall 2027.</p>
+    <p class="postdoc-callout__text">Happy to connect about human-centered AI, human–AI interaction, and human–autonomy coordination.</p>
+  </div>
+  <div class="postdoc-callout__actions">
+    <a class="postdoc-callout__btn" href="mailto:zixuan72@mit.edu"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
+    <a class="postdoc-callout__btn" href="/cv/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> CV</a>
+  </div>
 </div>
 
-## Research Vision
+</section>
 
-During my PhD stage, I seek to answer several questions about our future with intelligent systems, including but not limited to:
+<section class="home-section" markdown="1">
 
--  🤖 **LLMs for AV Interaction**: How can LLMs enhance human-machine interaction in autonomous vehicles (applications, function, reliance)?
+## <span class="section-icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>Research
 
-- 🔍 **AI Evaluation & Validation**: How can we effectively evaluate AI for AV HMI to ensure reliability, robustness, and alignment with human values/safety?
+My research spans three connected levels: **designing adaptive AI systems, understanding human responses, and investigating interactions at scale.**
+{: .section-intro}
 
-- 🧠 **Human Behavior Modeling**: How can computational models accurately capture and predict human behavior/intentions in transportation?
-
-
-
-
-<div style="padding: 15px 0;">
-  🔬🤝<strong>I am always excited to learn from and collaborate with others interested in these areas. Currently, my primary focus is on applying LLMs to solve human-machine interaction challenges (centering on drivers, passengers, and pedestrians) for AVs.</strong>
+<div class="research-grid">
+  <div class="research-card research-card--1">
+    <span class="research-card__icon"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i></span>
+    <p class="research-card__stage"><span class="research-card__num">01 /</span> Design</p>
+    <h3 class="research-card__title">Adaptive &amp; Safety-Aware AI Assistance</h3>
+    <p class="research-card__text">How can AI determine when to assist, what support to provide, and how to communicate it? I develop personalized AI agents and safety-aware multimodal reasoning methods that integrate human needs, environmental context, and risk.</p>
+  </div>
+  <div class="research-card research-card--2">
+    <span class="research-card__icon"><i class="fa-solid fa-people-arrows" aria-hidden="true"></i></span>
+    <p class="research-card__stage"><span class="research-card__num">02 /</span> Interact</p>
+    <h3 class="research-card__title">Human–AI Interaction &amp; Behavioral Adaptation</h3>
+    <p class="research-card__text">How do people interpret and respond to AI assistance, and when does it support human judgment? I examine the behavioral and ethical dimensions of human–AI interaction, including reliance, trust, and decision-making, with ongoing work on human-in-the-loop evaluation.</p>
+  </div>
+  <div class="research-card research-card--3">
+    <span class="research-card__icon"><i class="fa-solid fa-city" aria-hidden="true"></i></span>
+    <p class="research-card__stage"><span class="research-card__num">03 /</span> Scale <span class="research-card__badge">Emerging Direction</span></p>
+    <h3 class="research-card__title">Human–Autonomy in Sociotechnical Systems</h3>
+    <p class="research-card__text">How do individual interactions between people and autonomous agents develop into broader patterns of coordination and behavior? I am exploring empirically grounded simulations of human–AV interaction to examine heterogeneous human responses and coordination dynamics. In the longer term, I aim to understand how such interactions may contribute to changes in mobility systems, social expectations, and the adoption of autonomous technologies.</p>
+  </div>
 </div>
 
-<div style="padding: 5px 0;">
-  <strong>Feel free to reach out via email <a href="mailto:zixuan.xu@kaist.ac.kr">zixuan.xu@kaist.ac.kr</a> — I look forward to connecting!</strong>
-</div>
+</section>
 
----
+<section class="home-section" markdown="1">
 
-{% include news-feed.html %}
+## <span class="section-icon"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>Selected Publications
 
-## Featured Publications
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+<ul class="pub-list">
+{%- for pub in selected_pubs %}
+{% include publication-entry.html pub=pub %}
+{%- endfor %}
+</ul>
 
-{% include featured-publications.html %}
-[View All Publications](/publications/)
+<p class="more-link"><a href="{{ '/publications/' | relative_url }}">Full publication list →</a></p>
 
-## Education
+</section>
 
-<div class="education-section">
+<section class="home-section home-section--awards" markdown="1">
 
-<div class="education-item">
-<span class="degree">Visiting PhD Student</span><br>
-<span class="institution">Massachusetts Institute of Technology (MIT), Department of Urban Studies and Planning</span><br>
-<span class="duration">September 2026–present</span>
-</div>
+## <span class="section-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></span>Selected Honors &amp; Awards
 
-<div class="education-item">
-<span class="degree">Ph.D., Transportation</span><br>
-<span class="institution">Korea Advanced Institute of Science and Technology (KAIST)</span><br>
-<span class="scholarship">Certified with KAIST Prestige Scholarship for International Ph.D. Students (KPS)</span><br>
-<span class="duration">2023-present</span>
-</div>
+{% include awards-list.html selected=true %}
 
-<div class="education-item">
-<span class="degree">M.S., Data-Driven Modeling</span><br>
-<span class="institution">Department of Physics and the Department of Mathematics, The Hong Kong University of Science and Technology (HKUST)</span><br>
-<span class="scholarship">Certified with Entry Scholarship</span><br>
-<span class="duration">2022-2023</span>
-</div>
-
-<div class="education-item">
-<span class="degree">B.S., Traffic Engineering</span><br>
-<span class="institution">College of Transportation, Tongji University</span><br>
-<span class="duration">2018-2022</span>
-</div>
-
-</div>
-
-<style>
-.education-section {
-  font-family: 'Palatino Linotype', Palatino, 'Georgia', serif;
-  line-height: 1.6;
-}
-
-.education-item {
-  margin-bottom: 1.5rem;
-}
-
-.mit-visit-callout {
-  margin: 1.25rem 0 1.75rem;
-  padding: 1rem 1.15rem;
-  border-left: 4px solid rgba(37, 99, 235, 0.7);
-  background: rgba(37, 99, 235, 0.14);
-  border-radius: 6px;
-  color: #2f3a45;
-  font-size: 0.92rem;
-  line-height: 1.55;
-}
-
-.mit-visit-callout a {
-  font-weight: 600;
-}
-
-.degree {
-  color: #1e293b;
-  font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: 0.3px;
-}
-
-.institution {
-  color: #334155;
-  font-weight: 500;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.duration {
-  color: #64748b;
-  font-weight: 400;
-  font-size: 0.9rem;
-  font-style: italic;
-}
-
-.scholarship {
-  color: #4338ca;
-  font-style: italic;
-  font-family: 'Palatino Linotype', Palatino, serif;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-</style>
+</section>

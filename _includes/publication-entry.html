@@ -1,0 +1,19 @@
+{% comment %}
+  One publication from _publications/ as a list item.
+    pub      - the publication
+    summary  - true to show the one-line summary (front matter `excerpt`)
+{% endcomment %}
+{%- assign pub = include.pub -%}
+{%- assign paper_url = pub.paperurl | strip -%}
+{%- assign code_url = pub.githuburl | strip -%}
+{%- capture me %}<strong>{{ site.author.name }}</strong>{% endcapture -%}
+<li class="pub-entry">
+  <span class="pub-entry__title">{% if pub.venue_short %}<span class="pub-entry__badge">{{ pub.venue_short }} {{ pub.date | date: "%Y" }}</span>{% endif %}<a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></span>
+  <span class="pub-entry__authors">{{ pub.authors | replace: site.author.name, me }}</span>
+  <span class="pub-entry__venue"><em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+    {%- if paper_url != "" %} · <a href="{{ paper_url }}">Paper</a>{% endif %}
+    {%- if code_url != "" %} · <a href="{{ code_url }}">Code</a>{% endif %}</span>
+  {%- if include.summary and pub.excerpt %}
+  <span class="pub-entry__summary">{{ pub.excerpt | strip_html }}</span>
+  {%- endif %}
+</li>
