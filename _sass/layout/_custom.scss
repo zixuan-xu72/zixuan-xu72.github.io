@@ -126,6 +126,13 @@ html[data-theme="dark"] {
   transform: scaleX(1);
 }
 
+/* Wider content column: the template leaves 2 of 12 columns empty on the right */
+.page {
+  @include breakpoint($large) {
+    @include suffix(1 of 12);
+  }
+}
+
 /* The theme's near-black GitHub icon disappears on the dark background */
 html[data-theme="dark"] .social-icons .fa-github {
   color: var(--ink);
