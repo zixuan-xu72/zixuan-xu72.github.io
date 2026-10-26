@@ -11,7 +11,7 @@ redirect_from:
 
 ## <span class="section-icon"><i class="fa-solid fa-user" aria-hidden="true"></i></span>About
 
-I am a **Ph.D. candidate at KAIST**, advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home), and currently a **Visiting Student Researcher at MIT**, working with [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/).
+I am a **final-year Ph.D. candidate at KAIST**, advised by [Prof. Tiantian Chen](https://sites.google.com/view/chentiantian/home), and currently a **Visiting Student Researcher at MIT**, working with [Prof. Jinhua Zhao](https://mobility.mit.edu/people/jinhua-zhao/).
 {: .lead}
 
 My research focuses on **human-centered AI for intelligent and autonomous systems**. I develop adaptive, safety-aware AI assistance that accounts for human needs and environmental context, primarily using intelligent vehicles as a research setting. Beyond system design, I investigate how people interpret and respond to AI, including its implications for human judgment, reliance, and behavior. Building on this work, I am extending my research toward **human–autonomy coordination**, exploring how interactions between people and autonomous agents may shape broader mobility systems.
