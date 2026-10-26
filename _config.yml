@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Zixuan Xu"
 title_separator          : "-"
 name                     : &name "Zixuan Xu"
-description              : &description "Final-year Ph.D. candidate at KAIST and Visiting Student Researcher at MIT, working on human-centered AI and human–AI interaction."
+description              : &description "Final-year Ph.D. candidate at KAIST and Visiting Ph.D. Student at MIT, working on human-centered AI and human–AI interaction."
 url                      : https://zixuan-xu72.github.io # Replace with your GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zixuan-xu72/zixuan-xu72.github.io" # Replace with your GitHub username/repo
@@ -25,7 +25,7 @@ author:
   avatar           : "profile-square.jpg" # Replace with your profile image
   name             : "Zixuan Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate, KAIST<br>Visiting Student Researcher, MIT"
+  bio              : "Ph.D. Candidate, KAIST<br>Visiting Ph.D. Student, MIT"
   location         : "Cambridge, MA, USA"
   employer         : # Affiliations are already listed in the bio
   uri              : # Your personal website URL

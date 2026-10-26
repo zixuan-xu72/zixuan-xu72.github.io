@@ -28,7 +28,7 @@ redirect_from:
 ## Research Experience
 
 <ul class="dated-list dated-list--wide">
-  <li><span class="dated-list__date">2026 – present</span><div class="dated-list__text"><strong>Visiting Student Researcher</strong>, <a href="https://mobility.mit.edu/">JTL Urban Mobility Lab</a>, Massachusetts Institute of Technology (MIT)<br><span class="dated-list__meta">Department of Urban Studies and Planning · Host: Prof. Jinhua Zhao · Cambridge, MA, USA</span>
+  <li><span class="dated-list__date">2026 – present</span><div class="dated-list__text"><strong>Visiting Ph.D. Student</strong>, <a href="https://mobility.mit.edu/">JTL Urban Mobility Lab</a>, Massachusetts Institute of Technology (MIT)<br><span class="dated-list__meta">Department of Urban Studies and Planning · Host: Prof. Jinhua Zhao · Cambridge, MA, USA</span>
     <ul class="cv-bullets">
       <li>Investigating human responses to autonomous vehicles and their implications for interaction and coordination in mixed traffic.</li>
     </ul></div></li>
